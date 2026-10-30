@@ -1,0 +1,6 @@
+{
+  "name": "Clínica Vida",
+  "description": "Clínica Vida - Human-inspired health center providing comprehensive care and family insurance plans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
