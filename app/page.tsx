@@ -24,15 +24,16 @@ export default function LandingPage() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between gap-8">
-          <div className="flex items-center shrink-0">
+          <div className="flex items-center shrink-0 gap-3">
             <Image 
-              src="/assets/aistudio/image_499480e1.png" 
-              alt="Clínica Vida Logo" 
-              width={180} 
-              height={50} 
-              className="h-10 w-auto object-contain"
+              src="/assets/aistudio/image_440e9c1d.png" 
+              alt="Clínica Vida Icon" 
+              width={60} 
+              height={60} 
+              className="h-12 w-auto object-contain"
               referrerPolicy="no-referrer"
             />
+            <span className="text-xl font-bold tracking-tight text-slate-900">Clínica Vida</span>
           </div>
 
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
@@ -401,11 +402,11 @@ export default function LandingPage() {
             </div>
             
             <div className="flex flex-col md:flex-row items-center justify-between gap-8 pt-12 border-t border-slate-200">
-              <div className="flex items-center gap-6">
+              <div className="flex items-center gap-4">
                 <Image 
-                  src="/assets/aistudio/image_499480e1.png" 
-                  alt="Clínica Vida Logo" 
-                  width={140} 
+                  src="/assets/aistudio/image_440e9c1d.png" 
+                  alt="Clínica Vida Icon" 
+                  width={40} 
                   height={40} 
                   className="h-8 w-auto grayscale opacity-50"
                   referrerPolicy="no-referrer"
